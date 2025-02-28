@@ -109,3 +109,9 @@ To github.com:ybdn/jared-workflows.git
    8f7f880..053ef79  master -> master
 ----- Fri Feb 28 19:00:03 UTC 2025 : Fin de la synchronisation -----
 ----- Fri Feb 28 19:10:01 UTC 2025 : Début de la synchronisation -----
+[master 2d41cce] Auto-save before pull - Fri Feb 28 19:10:01 UTC 2025
+ 2 files changed, 9 insertions(+), 9 deletions(-)
+Exécution de git pull --rebase origin master
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Ajout des fichiers modifiés avec git add -A
