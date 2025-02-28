@@ -73,3 +73,11 @@ Exécution de git pull --rebase origin master
 error: cannot pull with rebase: You have unstaged changes.
 error: please commit or stash them.
 Ajout des fichiers modifiés avec git add -A
+Commit des modifications avec git commit
+[master 7a24c7c] Auto-update n8n workflows - Fri Feb 28 18:40:01 UTC 2025
+ 1 file changed, 6 insertions(+)
+Push des modifications avec git push origin master
+To github.com:ybdn/jared-workflows.git
+   f22f1f9..7a24c7c  master -> master
+----- Fri Feb 28 18:40:03 UTC 2025 : Fin de la synchronisation -----
+----- Fri Feb 28 18:50:01 UTC 2025 : Début de la synchronisation -----
