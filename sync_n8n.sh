@@ -4,6 +4,10 @@ LOGFILE="/var/lib/docker/volumes/n8n_data/_data/workflows/git_sync.log"
 echo "----- $(date) : Début de la synchronisation -----" >> $LOGFILE
 cd /var/lib/docker/volumes/n8n_data/_data/workflows || exit
 
+# Ajouter les modifications AVANT de récupérer les mises à jour
+git add -A >> $LOGFILE 2>&1
+git commit -m "Auto-save before pull - $(date)" >> $LOGFILE 2>&1 || echo "Rien à committer avant pull." >> $LOGFILE
+
 # Récupérer les mises à jour de GitHub
 echo "Exécution de git pull --rebase origin master" >> $LOGFILE
 git pull --rebase origin master >> $LOGFILE 2>&1
