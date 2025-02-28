@@ -1,0 +1,5 @@
+----- Fri Feb 28 18:16:00 UTC 2025 : Début de la synchronisation -----
+Exécution de git pull --rebase origin master
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Ajout des fichiers modifiés avec git add -A
