@@ -39,3 +39,9 @@ Push des modifications avec git push origin master
 fatal: could not read Username for 'https://github.com': No such device or address
 ----- Fri Feb 28 18:20:01 UTC 2025 : Fin de la synchronisation -----
 ----- Fri Feb 28 18:22:44 UTC 2025 : Début de la synchronisation -----
+[master dedc01c] Auto-save before pull - Fri Feb 28 18:22:44 UTC 2025
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+Exécution de git pull --rebase origin master
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Ajout des fichiers modifiés avec git add -A
